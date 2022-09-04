@@ -10,11 +10,4 @@ const displayNews = newses =>{
   newses.forEach(news => {
     const newsDiv = document.createElement('div')
     newsDiv.classList.add('col');
-    newsDiv.innerHTML = `
-    <div class="card lg:card-side bg-base-100 shadow-xl">
-    <figure><img src="${news.image_url}" alt="Album"></figure>
-   
-}
-
-
-loadNews()
+ 
