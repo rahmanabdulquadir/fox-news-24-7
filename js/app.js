@@ -26,12 +26,5 @@ const displayNews = newses =>{
   })
 }
 
-document.getElementById('btn-search').addEventListener('click', function(){
-  const searchField = document.getElementById('search-field');
-  const searchText = searchField.value;
-  loadNews(searchText)
-})
-
-
 
 loadNews()
