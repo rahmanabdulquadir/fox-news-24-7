@@ -4,6 +4,3 @@ const loadNews = () => {
   .then(res => res.json())
   .then(data => displayNews(data.data))
 }
-
-const displayNews = newses =>{
-  const newsContainer =
