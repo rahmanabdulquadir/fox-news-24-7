@@ -6,8 +6,4 @@ const loadNews = () => {
 }
 
 const displayNews = newses =>{
-  const newsContainer = document.getElementById('news-container');
-  newses.forEach(news => {
-    const newsDiv = document.createElement('div')
-    newsDiv.classList.add('col');
- 
+  const newsContainer =
