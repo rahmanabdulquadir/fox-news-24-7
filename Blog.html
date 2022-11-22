@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div class="grid gap-6 mt-20 grid-cols-2 w-9/12 mx-auto">
+      <div class="text-center">
+        <h1 class="text-3xl">
+          What is the difference between Var, Let, Const?
+        </h1>
+        <p class="text-l">
+          In the var tab, when you will run the code, you will see an error as a
+          is not defined because var variables are only accessible in the
+          function scope. In the let tab, when you run the code, you will see an
+          error as i is not defined because let variables are only accessible
+          within the block they are declared. In the const tab, when you run the
+          code, you will see that x was defined under the block was accessible,
+          but when you try to access x outside that block, you will get an
+          error.
+        </p>
+      </div>
+      <div class="text-center">
+        <h1 class="text-3xl">
+          What is the difference between regular and arrow function?
+        </h1>
+        <p class="text-l">
+          In regular function, arguments will give you list of parameter passed
+          in function, In arrow function arguments is not defined. In regular
+          function, you always have to return any value, but in Arrow function
+          you can skip return keyword and write in single line. In arrow
+          function parameters should be unique.
+        </p>
+      </div>
+      <div class="text-center">
+        <h1 class="text-3xl">
+          What is difference between Map, ForEach, Filter and Find?
+        </h1>
+        <p class="text-l">
+          .map() executes the same code on every element in an array and returns
+          a new array with the updated elements. .forEach(), is used to execute
+          the same code on every element in an array but does not change the
+          array and it returns undefined. .filter() checks every element in an
+          array to see if it meets a certain criteria and returns a new array
+          with the elements that return truthy for the criteria. .find() is also
+          a search function like the previous but they differ in one small
+          detail — this function returns only one match in an array
+        </p>
+      </div>
+      <div class="text-center">
+        <h1 class="text-3xl">The usage of Template String</h1>
+        <p class="text-l">
+          Template literals are sometimes informally called template strings,
+          because they are used most commonly for string interpolation (to
+          create strings by doing substitution of placeholders). However, a
+          tagged template literal may not result in a string; it can be used
+          with a custom tag function to perform whatever operations you want on
+          the different parts of the template literal.
+        </p>
+      </div>
+    </div>
+  </body>
+  <section class="mt-20">
+    <div class="card card-side bg-neutral-800 shadow-xl w-9/12 h-80 mx-auto">
+      <figure>
+        <img
+          class="w-100"
+          src="https://placeimg.com/400/400/arch"
+          alt="Album"
+        />
+      </figure>
+      <div class="card-body w-9/12">
+        <h2 class="card-title">
+          The best fashion influencers to follow for sartorial inspiration
+        </h2>
+        <p>
+          
+        </p>
+        <div class="card-actions justify-items-center">
+          <div class="flex justify-start">
+            <label tabindex="0" class="btn btn-ghost btn-circle avatar px-4">
+              <div class="w-10 rounded-full">
+                <img src="https://placeimg.com/80/80/people" />
+              </div>
+            </label>
+            <div>
+              <h3>Willam White</h3>
+              <p>Jan 10, 2022</p>
+            </div>
+            <h1 class="mx-12">1.5M</h1>
+          </div>
+          <button class="btn btn-outline btn-success ml-32">Show More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</html>
